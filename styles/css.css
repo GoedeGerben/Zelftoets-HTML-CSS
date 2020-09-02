@@ -46,6 +46,26 @@ height: 200px;}
   text-align: center;
 }
 
+.item1p3 {grid-area: topimage;}
+.item2p3 {grid-area: textleft; background-color: grey; padding-top: 20px;}
+.item3p3 {grid-area: textright; background-color: grey; padding-top: 20px;}
+.item4p3 {grid-area: bottomimage;}
+
+
+.grid-container3 {
+  display: grid;
+  grid-template-areas:
+    'topimage topimage topimage topimage topimage topimage'
+    'textleft textleft textleft textright textright textright'
+    'bottomimage bottomimage bottomimage bottomimage bottomimage bottomimage';
+  grid-column-gap: 200px;
+  grid-row-gap: 20px;
+}
+
+.grid-container3 > div {
+  text-align: center;
+}
+
 body {
 	width: 90%;
 	margin-left: 5%;
