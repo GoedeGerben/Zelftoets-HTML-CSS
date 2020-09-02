@@ -32,15 +32,23 @@ header {
 	height: 150px;
 	margin: 30px;
 }
+nav {
+	display: inline;
+}
 
 #navBar {
 	border: solid 1px black;
+	padding-top: 23px;
 	margin-bottom: 30px;
+	height: 50px;
+	text-align: center;
+
 }
 
 .navItem {
-	height: 50px;
-	width: 70px;
+	padding: 23px;
+	margin: 50px;
+	display: inline;
 	border-left: solid 1px black;
 	border-right: solid 1px black;
 	background-color: black;
