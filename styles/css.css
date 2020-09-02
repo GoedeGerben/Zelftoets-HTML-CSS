@@ -13,23 +13,29 @@
   grid-template-areas:
     'imageLeft imageLeft imageLeft imageRight imageRight imageRight'
     'left left left right right right ';
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+  grid-column-gap: 100px;
+  grid-row-gap: 30px;
+  background-color: white;
 }
 
 .grid-container > div {
-  background-color: blue;
+  background-color: white;
   text-align: center;
+}
+
+header {
+	text-align:center;
 }
 
 .logo{
 	width: 360px;
 	height: 150px;
+	margin: 30px;
 }
 
 #navBar {
 	border: solid 1px black;
+	margin-bottom: 30px;
 }
 
 .navItem {
@@ -41,6 +47,15 @@
 	color: white;
 	text-align: center;
 
+}
+
+.grappigNummer {
+	width: 420px;
+	height: 200px;
+}
+
+p {
+	font-size: 20px;
 }
 
 footer {
