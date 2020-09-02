@@ -46,10 +46,10 @@ height: 200px;}
   text-align: center;
 }
 
-.item1p3 {grid-area: topimage;}
+.item1p3 {grid-area: topimage; width: 960px;}
 .item2p3 {grid-area: textleft; background-color: grey; padding-top: 20px;}
 .item3p3 {grid-area: textright; background-color: grey; padding-top: 20px;}
-.item4p3 {grid-area: bottomimage;}
+.item4p3 {grid-area: bottomimage; width: 960px;}
 
 
 .grid-container3 {
@@ -58,11 +58,36 @@ height: 200px;}
     'topimage topimage topimage topimage topimage topimage'
     'textleft textleft textleft textright textright textright'
     'bottomimage bottomimage bottomimage bottomimage bottomimage bottomimage';
-  grid-column-gap: 200px;
+  grid-column-gap: 100px;
   grid-row-gap: 20px;
 }
 
 .grid-container3 > div {
+  text-align: center;
+}
+
+.item1p4 {grid-area: topimageleft; width: 300px;}
+.item2p4 {grid-area: topimagemiddle; width: 300px;}/*Dit had 380px moeten zijn maar dit vond ik wat leuker staan*/
+.item3p4 {grid-area: topimageright; width: 300px;}
+.item4p4 {grid-area: toptext;}
+.item5p4 {grid-area: imageleft;}
+.item6p4 {grid-area: imagemiddletop; height: 190px;}
+.item7p4 {grid-area: imagemiddlebottom;}
+.item8p4 {grid-area: imageright;}
+
+
+.grid-container4 {
+  display: grid;
+  grid-template-areas:
+    'topimageleft topimageleft topimagemiddle topimagemiddle topimageright topimageright'
+    'toptext toptext toptext toptext toptext toptext'
+    'imageleft imageleft imageleft imagemiddletop imageright imageright'
+    'imageleft imageleft imageleft imagemiddlebottom imageright imageright';
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.grid-container4 > div {
   text-align: center;
 }
 
@@ -101,7 +126,7 @@ nav {
 
 .navItem {
 	padding: 23px;
-	margin: 50px;
+	margin: 3%;
 	display: inline;
 	border-left: solid 1px black;
 	border-right: solid 1px black;
