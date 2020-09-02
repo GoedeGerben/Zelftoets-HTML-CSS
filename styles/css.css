@@ -54,7 +54,18 @@ nav {
 	background-color: black;
 	color: white;
 	text-align: center;
+}
 
+.navItem:hover {
+	background-color: #4d665d;
+}
+
+.navItemCurrent {
+	background-color: grey;
+}
+
+.navItemCurrent:hover {
+	background-color: #4d665d;
 }
 
 .grappigNummer {
