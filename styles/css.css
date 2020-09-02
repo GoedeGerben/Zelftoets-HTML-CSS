@@ -3,6 +3,26 @@
 	font-size: 25px;
 }
 
+.item1 { grid-area: imageLeft; }
+.item2 { grid-area: imageRight; }
+.item3 { grid-area: left; }
+.item4 { grid-area: right; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'imageLeft imageLeft imageLeft imageRight imageRight imageRight'
+    'left left left right right right ';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: blue;
+  text-align: center;
+}
+
 .logo{
 	width: 360px;
 	height: 150px;
