@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	font-size: 25px;
+}
+
+.logo{
+	width: 360px;
+	height: 150px;
+}
+
+#navBar {
+	border: solid 1px black;
+}
+
+.navItem {
+	height: 50px;
+	width: 70px;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	background-color: black;
+	color: white;
+	text-align: center;
+
+}
+
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
