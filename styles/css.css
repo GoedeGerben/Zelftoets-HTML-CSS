@@ -15,12 +15,21 @@
     'left left left right right right ';
   grid-column-gap: 100px;
   grid-row-gap: 30px;
-  background-color: white;
 }
 
 .grid-container > div {
-  background-color: white;
   text-align: center;
+}
+
+body {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 10px;
+	background-color: gray;
+}
+
+#page {
+	background-color: white;
 }
 
 header {
@@ -39,8 +48,8 @@ nav {
 #navBar {
 	border: solid 1px black;
 	padding-top: 23px;
+	padding-bottom: 22px;
 	margin-bottom: 30px;
-	height: 50px;
 	text-align: center;
 
 }
